@@ -1,0 +1,180 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.black{
+    background-color: black;
+}
+#orb{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+#orb2{
+    border-radius: 100%;
+    height: 130px;
+    width: 180px;
+    padding: 35px;
+    margin: auto;
+    margin-left: 80px;
+    position: absolute;
+    left: 0;
+}
+#bborb{
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+}
+#horb2{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    padding: 18px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 70px;
+}
+#horb3{
+    border-radius: 100%;
+    height: 260px;
+    width: 250px;
+    padding: 23px;
+    margin: auto;
+    position: absolute;
+    bottom:0;
+}
+#horb4{
+    border-radius: 100%;
+    height: 265px;
+    width: 270px;
+    padding: 23px;
+    margin: auto;
+    position: absolute;
+    bottom:0;
+    margin-left: 60px;
+}
+#sky{
+    height: 100%;
+    width: 100%;
+}
+.sun{
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+.merc{
+    background-color: #e20e3f;
+    border: 20px solid #b13c60;
+}
+.drkmerc{
+    background-color: #fa2052;
+    border: 20px solid #efad19;
+}
+.half{
+    background-color: #000aff;
+    border: 5px solid #ffffff;
+}
+.plu{
+    background-color: #2e93f7;
+    border: 5px solid #0014ff;
+    bottom:0; left:0; right: 0;
+}
+.blank{
+    background-color: #2c3e50;
+}
+.moon{
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2;
+}
+.cover{
+    background-color: #37d8e6;
+}
+.night{
+    background-color: #2c3e50;
+}
+.day{
+    background-color: #37d8e6;
+}
+.sun:hover{
+    border: 20px solid #f1c40f;
+}
+.moon:hover{
+    border: 20px solid #eaeff2;
+}
+#moonspot1{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#moonspot2{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#moonspot3{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#monspot1{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#monspot2{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#mooonspot1{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: left;
+    margin: 20px;
+    margin-left:40px;
+}
+#mooonspot2{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+    margin-left:10px;
+}
+.visible{
+    background-color: #eaeff2;
+}
+.orvisible{
+    background-color: #efad19;
+}
+.gone{
+    background-color: #37d8e6;
+}
+.smile{
+    background-color: #2c3e50;
+}
+.ple{
+    background-color: #2e93f7;
+    border: 5px solid #0014ff;
+    top:0; left: 0; right:0;
+}

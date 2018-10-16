@@ -1,0 +1,48 @@
+body,
+html {
+    background-color: #f6f6f6;
+}
+
+#painting {
+    background-color: #000000;
+    width: 450px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 0px #dcdbdb;
+}
+.pagecontent {
+    padding-left: 120px;
+    padding-right: 50px;
+    padding-top: 35px;
+}
+h1 {
+    font-family: courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em;
+    color: #ffffff;
+}
+.pagecontent2 {
+    padding-left: 145px;
+    padding-right:30px;
+}
+h2 {
+    font-family: courier, monospace;
+    font-size: 15px;
+    font-weight:bold;
+    line-height: 1em;
+    color: #ffffff;
+}
+h3 {
+    font-family: courier, monospace;
+    font-size: 10px;
+    font-weight:bold;
+    line-height: 1em;
+    color: #ffffff;
+}
+.pagecontent3 {
+    padding-left: 75px;
+    padding-right: 30px;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: #9a9fa2;
+}
+
+#day {
+    width: 800px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    font-family:cursive;
+    text-align: center;
+    color: #2700ff;
+    font-size: 130px;
+}
+
+#date {
+    width: 800px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 20px;
+    font-family:cursive;
+    text-align: center;
+    color: #2700ff;
+    font-size: 40px;
+}
+
+
+#clock {
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    padding-top: 300px;
+    font-family: cursive;
+    text-align: center;
+    color: #2700ff;
+    font-size: 140px;
+}

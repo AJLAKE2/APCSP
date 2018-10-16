@@ -1,0 +1,93 @@
+body,
+html {
+    background-color: #f6f6f6;
+}
+
+#painting {
+    background-color: #fff4db;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 0px #8d8d8d;
+}
+
+#toprow {
+    height: 72.5vh;
+}
+
+#bigbox {
+    width: 72.5vw;
+    height: 72.5vh;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.right {
+    float: right;
+}
+.left{
+    float: left;
+}
+
+#divider1 {
+    height: 72.5vh;
+    width: 2.5vw;
+}
+
+.mediumbox {
+    width: 25vw;
+    height: 35vh;
+}
+
+#divider2 {
+    height: 2.5vh;
+    width: 25vw;
+}
+#divider3 {
+    height:2.5vh;
+    width: 100vw;
+}
+#smallbox {
+    width:25vw;
+    height:25vh;
+}
+#bottomrightcolumn {
+    width:5vw;
+    height:25vh;
+}
+#divider4 {
+    height: 25vh;
+    width: 2.5vw;
+}
+#longbox {
+    height: 25vh;
+    width: 7.5vw;
+}
+#divider5 {
+    height: 2.5vh;
+    width: 7.5vw;
+}
+#lilbox {
+    height: 11.25vh;
+    width: 7.5vw;
+}
+#tinyboxes {
+    height: 25vh;
+    width: 7.5vw;
+}

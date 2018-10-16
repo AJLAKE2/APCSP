@@ -1,0 +1,249 @@
+/*This sets the background color for our comic page*/
+
+html body {
+    background-color: #3c3e55;
+}
+
+
+/*These IDs are for the invisible divs that will hold our comic together*/
+
+#page {
+    height: 100%;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#titleblock {
+    height: 160px;
+    width: 800px;
+    padding-left: 10px;
+}
+
+
+/*These are the text styles for the headline and byline*/
+
+h1 {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 45px;
+    color: white;
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+}
+
+
+/*These IDs are for the panels that will make up our comic.*/
+
+#panel1 {
+    position: relative;
+    height: 280px;
+    width: 770px;
+    border: 10px solid #000000;
+    float: left;
+    background-color: #28d8eb;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#panel7 {
+    position: relative;
+    height: 280px;
+    width: 260px;
+    border: 10px solid #696a75;
+    float: left;
+    background-color: #28d8eb;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+#panel2 {
+    position: relative;
+    height: 280px;
+    width: 470px;
+    border: 10px solid #00ffc4;
+    float: left;
+    background-color: #77da62;
+    overflow: hidden;
+}
+
+#panel3 {
+    position: relative;
+    height: 280px;
+    width: 520px;
+    border: 10px solid #0000ff;
+    float: left;
+    background-color: #00d26d;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+#panel8 {
+    position: relative;
+    height: 280px;
+    width: 480px;
+    border: 10px solid #ffffff;
+    float: left;
+    background-color: #ffc100;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+#panel4 {
+    position: relative;
+    height: 280px;
+    width: 480px;
+    border: 10px solid #ffe200;
+    float: left;
+    background-color: #ffc100;
+    overflow: hidden;
+}
+
+#panel5 {
+    position: relative;
+    height: 280px;
+    width: 280px;
+    border: 10px solid #ff9100;
+    float: left;
+    background-color: #ff9100;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+#panel9 {
+    position: relative;
+    height: 280px;
+    width: 780px;
+    border: 10px solid #0896fd;
+    float: left;
+    background-color: #ff9100;
+    overflow: hidden;
+    margin-right: 100px;
+}
+
+#panel6 {
+    position: relative;
+    height: 280px;
+    width: 280px;
+    border: 10px solid #af0d00;
+    float: left;
+    background-color: #ff9100;
+    overflow: hidden;
+}
+
+
+/*These classes are for the different text styles we will be using in the comic*/
+
+.narration {
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px;
+    color: whitesmoke;
+    margin-left:10px;
+    text-shadow: 2px 2px #2b2b2b;
+}
+
+.bigtext {
+    font-family: "Comic Sans MS";
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    margin: 20px;
+    text-shadow: 2px 2px #2b2b2b;
+}
+
+
+/* These classes can position text and images within the panel.*/
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*These ids can be used fit specific images into our panels based on the dimensions of the image*/
+
+#image1 {
+    position:absolute;
+    width: 42%;
+    bottom: -110px;
+}
+
+#image2 {
+    position: absolute;
+    width: 470px;
+    height: 280px;
+}
+
+#image3 {
+    position: absolute;
+    width:520px;
+    height:100%;
+}
+
+#image4 {
+    position: absolute;
+    width: 100%;
+}
+
+#image5 {
+    position: absolute;
+    width: 260px;
+    height: 100%;
+}
+#image6 {
+   position: absolute;
+    width: 770px;
+    height: 100%;
+}
+#image7{
+   position: absolute;
+    width: 280px;
+    height: 280px; 
+}
+#image8 {
+     position: absolute;
+    width: 780px;
+    height: 280px; 
+}
+
+
+/*These classes are for stacking or ordering elements on top of eachother.*/
+
+.inback {
+    z-index: 1;
+}
+
+.inmiddle {
+    z-index: 2;
+}
+
+.infront {
+    z-index: 3;
+}

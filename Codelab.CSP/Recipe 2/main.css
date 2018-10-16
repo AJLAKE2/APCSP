@@ -1,0 +1,25 @@
+.pagecontent {
+    background-color: lightslategray
+}
+h1 {
+    font-family: courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2em;
+    color: black;
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2em;
+    color: saddlebrown;
+}
+p,li{
+    font-family: verdana;
+    font-size: 18px;
+    color: sandybrown;
+}
+li {
+    margin-bottom: 7px;
+}

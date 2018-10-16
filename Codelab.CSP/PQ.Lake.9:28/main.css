@@ -1,0 +1,90 @@
+#box {
+    width:700px;
+    height:220px;
+    padding: 15px;
+    margin: 10% auto auto;
+    background-color:white;
+    border: solid lightgrey 1px;
+    
+}
+h4{
+    margin:15px;
+}
+#lilboxrow{
+    padding: inherit;
+    text-align:center;
+}
+.ywbox{
+    padding: 3px;
+    width:200px;
+    height: 40px;
+    background-color:lightgoldenrodyellow;
+    display: inline-block;
+    border-radius: 5%;
+    border:1px solid;
+    border-color: cornsilk;
+}
+#number{
+    padding:3px;
+}
+.brbox{
+    padding: 3px;
+    width:200px;
+    height: 40px;
+    background-color:lightblue;
+    display: inline-block;
+    border-radius: 5%;
+}
+.rdbox{
+    padding: 3px;
+    width:200px;
+    height: 40px;
+    background-color: indianred;
+    display: inline-block;
+    border-radius: 5%;
+}
+.inline {
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight:500;
+}
+.tag{
+    width:75px;
+    padding: 10px;
+    background-color: lightblue;
+    color:darkblue;
+    font-size: 18px;
+}
+#location{
+   color: darkgray;
+    font-size: 21px;
+}
+
+h4 {
+    color:black;
+    font-family:sans-serif;
+}
+
+.red {
+    color: red;
+    font-size:18px;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+}
+
+#bottomlt {
+    width:200px;
+    height:50px;
+    margin-top: 50px;
+
+    
+}
+.lt{
+    text-align: left;
+}
+#bkbox{
+    color:red;
+    background-color: black;
+    width:200px;
+    height:50px;
+}
